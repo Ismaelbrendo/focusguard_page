@@ -9,7 +9,6 @@ import { FAQSection } from "@/components/faq-section"
 import { CTASection } from "@/components/cta-section"
 import { FooterSection } from "@/components/footer-section"
 import { AnimatedSection } from "@/components/animated-section"
-import { Analytics } from "@vercel/analytics/next"
 
 export default function LandingPage() {
   return (
