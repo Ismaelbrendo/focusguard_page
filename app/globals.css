@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Themeable Colors - Updated to Blue Theme */
+    --background: 210 11% 7%; /* #0f1211 */
+    --foreground: 210 14% 93%; /* #e7eceb */
+
+    --muted: 240 2% 16%; /* #27272a */
+    --muted-foreground: 210 14% 93% / 0.7; /* rgba(231, 236, 235, 0.7) */
+    --muted-foreground-light: 210 14% 93% / 0.5; /* rgba(231, 236, 235, 0.5) */
+    --muted-foreground-dark: 210 14% 93% / 0.6; /* rgba(231, 236, 235, 0.6) */
+
+    --card: 220 17% 98% / 0.01;
+    --card-foreground: 210 14% 93%;
+
+    --popover: 210 11% 7%;
+    --popover-foreground: 210 14% 93%;
+
+    /* Updated primary colors from green to blue theme */
+    --primary: 210 100% 70%; /* #3b82f6 - blue */
+    --primary-foreground: 210 8% 6%; /* #0d0f0e */
+    --primary-dark: 220 100% 60%; /* #2563eb - darker blue */
+    --primary-light: 210 48% 87%; /* #dbeafe - lighter blue */
+
+    /* Secondary Accent Colors (for buttons, etc.) */
+    --secondary: 210 14% 93%; /* #e7eceb */
+    --secondary-foreground: 210 14% 8%; /* #141a18 */
+
+    --accent: 240 2% 25%; /* #3f3f42 */
+    --accent-foreground: 240 2% 96%; /* #f4f4f5 */
+
+    --border: 240 100% 100% / 0.08; /* rgba(255, 255, 255, 0.08) */
+    --border-light: 210 17% 6% / 0.1; /* rgba(16,24,40,0.1) */
+    --border-dark: 210 17% 6% / 0.05; /* rgba(16,24,40,0.05) */
+
+    --ring: 210 100% 70%;
+
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
