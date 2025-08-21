@@ -1,7 +1,13 @@
 {
   "redirects": [
     {
-      "source": "https://www.focuswall.app/:path*",
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.focuswall.app"
+        }
+      ],
       "destination": "https://focuswall.app/:path*",
       "permanent": true
     }
