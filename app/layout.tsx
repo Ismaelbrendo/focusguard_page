@@ -11,6 +11,9 @@ export const metadata: Metadata = {
   description:
     "Take control of your digital life with Focus Guard. Block distracting apps and websites to boost productivity and reclaim your focus.",
   generator: "v0.app",
+  other: {
+    "apple-mobile-web-app-title": "FocusWall",
+  },
 }
 
 export default function RootLayout({

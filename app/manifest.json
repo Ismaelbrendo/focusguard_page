@@ -1,6 +1,6 @@
 {
-  "name": "MyWebSite",
-  "short_name": "MySite",
+  "name": "FocusWall",
+  "short_name": "FocusWall",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",
