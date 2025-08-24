@@ -53,7 +53,7 @@ export function BentoSection() {
     },
     {
       title: "One-click integrations",
-      description: "Easily connect your workflow with popular dev tools.",
+      description: "Block apps and websites in one click.",
       Component: OneClickIntegrationsIllustration,
     },
     {
